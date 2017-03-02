@@ -54,3 +54,44 @@ body {
   color: #fff;
   opacity: 0.5;
 }
+
+#demoButton {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#phones {
+  position: relative;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phone {
+  position: relative;
+}
+
+#left.phone {
+  width: 32%;
+  right: -8%;
+}
+
+#right.phone {
+  width: 32%;
+  left: -8%;
+  z-index: -1;
+}
+
+#center.phone {
+  width: 34%;
+  top: -5%;
+}
