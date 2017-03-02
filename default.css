@@ -1,4 +1,4 @@
-body {
+ body {
   background-color: rgba(61, 70, 100, 0.86);
 }
 
@@ -76,18 +76,22 @@ body {
   margin-right: auto;
 }
 
-#phones > img {
-  width: 18%;
+.phone {
+  position: relative;
 }
 
 #left.phone {
+  width: 32%;
   right: -8%;
 }
 
 #right.phone {
+  width: 32%;
   left: -8%;
+  z-index: -1;
 }
 
 #center.phone {
+  width: 34%;
   top: -5%;
 }
