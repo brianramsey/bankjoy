@@ -3,13 +3,15 @@ body {
 }
 
 .contact {
-  padding: 3em;
+  padding: 1.9em;
   text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .contact span {
   margin-left: 0.5em;
-  color: white;
+  color: #fff;
 }
 
 .contact i {
@@ -26,4 +28,29 @@ body {
 #logo > img {
   width: 240px;
   height: 71px;
+}
+
+#slogan {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 37px;
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  color: #fff;
+}
+
+#subheading {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.5;
 }
