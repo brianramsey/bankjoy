@@ -109,10 +109,10 @@ body {
 #right.phone {
   width: 32%;
   left: -8%;
-  z-index: -1;
 }
 
 #center.phone {
   width: 34%;
   top: -5%;
+  z-index: 2;
 }
